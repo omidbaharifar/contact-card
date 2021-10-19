@@ -70,7 +70,7 @@ a:hover {
     transition: 400ms;
 }
 
-#site {
+.button.disabled {
     background-color: #867dff;
     border: 3px solid #867dff;
     pointer-events: none;
