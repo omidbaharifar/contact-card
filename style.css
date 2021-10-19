@@ -1,0 +1,77 @@
+@font-face {
+	font-family: 'Yekan';
+	src:	url('./fonts/Yekan.woff2') format('woff2'),
+		url('./fonts/Yekan.woff') format('woff'),
+		url('./fonts/Yekan.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html,h1,p,a {
+    font-family: Yekan;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+@media (max-width: 350px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 351px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    background: rgb(246,0,255);
+    background: linear-gradient(186deg, rgba(246,0,255,1) 0%, rgba(16,0,255,1) 100%);
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 300px;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+P {
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 0.5rem;
+}
+
+a:hover {
+    background-color: #ffffff;
+    color: rgba(16,0,255,1);
+    transition: 400ms;
+}
+
+#site {
+    background-color: #867dff;
+    border: 3px solid #867dff;
+    pointer-events: none;
+}
