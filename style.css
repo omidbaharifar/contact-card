@@ -1,3 +1,4 @@
+/* designed by weblax */
 @font-face {
 	font-family: 'Yekan';
 	src:	url('./fonts/Yekan.woff2') format('woff2'),
@@ -21,7 +22,7 @@ html,h1,p,a {
 
 @media (min-width: 351px) {
     html {
-        font-size: 15px;
+        font-size: 12px;
     }
 }
 
@@ -45,6 +46,14 @@ html,h1,p,a {
     padding: 10px;
     max-width: 300px;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 h1 {
@@ -57,10 +66,9 @@ P {
 
 a{
     text-decoration: none;
-    display: block;
     border: 2px solid #ffffff;
     border-radius: 10px;
-    margin: 10px 0px;
+    margin: 5px 0px;
     padding: 0.5rem;
 }
 
@@ -74,4 +82,10 @@ a:hover {
     background-color: #867dff;
     border: 3px solid #867dff;
     pointer-events: none;
+}
+
+.profile {
+    width: 9rem;
+    border-radius: 50%;
+    border: solid 0.5rem #ffffff;
 }
